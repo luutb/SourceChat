@@ -64,6 +64,7 @@ C:\Java\btl_server_securechat\src\main\java\com\giaynhap\config\JwtAuthenticatio
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\handler\WebsocketCallHandler.java
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\model\DTO\UserKeyDTO.java
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\config\WebSocketConfig.java
+C:\Java\btl_server_securechat\src\main\java\com\giaynhap\model\Pins.java
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\repository\ConversationRepository.java
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\config\LocalDateTimeSerializer.java
 C:\Java\btl_server_securechat\src\main\java\com\giaynhap\service\ConversationService.java

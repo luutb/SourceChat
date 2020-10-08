@@ -23,16 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06c25ed8-a2f5-4c3a-a4a2-4901f9d7891e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Pins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Conversation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationServiceIml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/DeviceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/UserConversationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/UserConversationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/UserConversationServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/UserConversationServiceIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/controller/ConversationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/controller/ConversationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationServiceIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationServiceIml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +103,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Spring Boot.RealTimeApp">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RealTimeChatAPI []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -226,6 +240,18 @@
       <workItem from="1599277749215" duration="2438000" />
       <workItem from="1599289411940" duration="9681000" />
       <workItem from="1599545236039" duration="3566000" />
+      <workItem from="1600062415710" duration="2597000" />
+      <workItem from="1600076435986" duration="1214000" />
+      <workItem from="1600765148243" duration="1737000" />
+      <workItem from="1601277986364" duration="2642000" />
+      <workItem from="1601545121497" duration="1571000" />
+      <workItem from="1601731186920" duration="1682000" />
+      <workItem from="1601953657121" duration="1400000" />
+      <workItem from="1601966739827" duration="3103000" />
+      <workItem from="1602035015950" duration="1202000" />
+      <workItem from="1602041387823" duration="795000" />
+      <workItem from="1602052321850" duration="3514000" />
+      <workItem from="1602123457621" duration="3944000" />
     </task>
     <servers />
   </component>
@@ -245,66 +271,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="16" key="#Project_Structure" timestamp="1592540492038">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="307" y="16" key="#Project_Structure/0.0.1600.900@0.0.1600.900" timestamp="1592540492038" />
-    <state x="458" y="41" width="683" height="859" key="#RealTimeApp" timestamp="1592647797999">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="458" y="41" width="683" height="859" key="#RealTimeApp/0.0.1600.900@0.0.1600.900" timestamp="1592647797999" />
-    <state x="281" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592545629415">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="281" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1592545629415" />
-    <state x="605" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1592630727838">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="605" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1600.900@0.0.1600.900" timestamp="1592630727838" />
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599278205116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1599278205116" />
-    <state width="1323" height="35" key="GridCell.Tab.0.bottom" timestamp="1599552500043">
+    <state width="1323" height="552" key="GridCell.Tab.0.bottom" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599552500043" />
-    <state width="1557" height="316" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1592648329081" />
-    <state width="1323" height="35" key="GridCell.Tab.0.center" timestamp="1599552500043">
+    <state width="1323" height="552" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
+    <state width="1323" height="552" key="GridCell.Tab.0.center" timestamp="1602057981588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599552500043" />
-    <state width="1557" height="316" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1592648329081" />
-    <state width="1323" height="35" key="GridCell.Tab.0.left" timestamp="1599552500043">
+    <state width="1323" height="552" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602057981588" />
+    <state width="1323" height="552" key="GridCell.Tab.0.left" timestamp="1602057981587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599552500043" />
-    <state width="1557" height="316" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1592648329080" />
-    <state width="1323" height="35" key="GridCell.Tab.0.right" timestamp="1599552500043">
+    <state width="1323" height="552" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602057981587" />
+    <state width="1323" height="552" key="GridCell.Tab.0.right" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599552500043" />
-    <state width="1557" height="316" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1592648329081" />
-    <state width="1323" height="12" key="GridCell.Tab.1.bottom" timestamp="1599303382633">
+    <state width="1323" height="552" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
+    <state width="1323" height="552" key="GridCell.Tab.1.bottom" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="12" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599303382633" />
-    <state width="1323" height="12" key="GridCell.Tab.1.center" timestamp="1599303382632">
+    <state width="1323" height="552" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
+    <state width="1323" height="552" key="GridCell.Tab.1.center" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="12" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599303382632" />
-    <state width="1323" height="12" key="GridCell.Tab.1.left" timestamp="1599303382632">
+    <state width="1323" height="552" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
+    <state width="1323" height="552" key="GridCell.Tab.1.left" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="12" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599303382632" />
-    <state width="1323" height="12" key="GridCell.Tab.1.right" timestamp="1599303382632">
+    <state width="1323" height="552" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
+    <state width="1323" height="552" key="GridCell.Tab.1.right" timestamp="1602057981590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="12" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599303382632" />
-    <state x="328" y="87" key="SettingsEditor" timestamp="1592541718596">
-      <screen x="0" y="0" width="1600" height="900" />
-    </state>
-    <state x="328" y="87" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1592541718596" />
+    <state width="1323" height="552" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602057981590" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,6 +501,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/giaynhap/controller/UserController.java</url>
           <line>190</line>
           <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/giaynhap/controller/UserController.java</url>

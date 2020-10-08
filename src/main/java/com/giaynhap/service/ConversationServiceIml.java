@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @Component
 public class ConversationServiceIml  implements ConversationService{
-    @Autowired
+
     ConversationRepository conversationRepository;
     @Autowired
     UserConversationRepository userConversationRepository;
@@ -105,6 +105,15 @@ public class ConversationServiceIml  implements ConversationService{
     public Message addMessage(Message mesage) {
         mesage.setUuid(UUID.randomUUID().toString());
         return messageRepository.save(mesage);
+    }
+    @Override
+    public  void removeUser(String conversationUuid,String userUuid, String key){
+        UserConversation userConv = new UserConversation();
+        userConv.setUserUuid(userUuid);
+        userConv.setThreadUuid(conversationUuid );
+        userConversationRepository.delete(userConv);
+        userConversationRepository.save(userConv);
+
     }
 
 
