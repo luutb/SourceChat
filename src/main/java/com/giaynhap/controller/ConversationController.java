@@ -88,16 +88,16 @@ public class ConversationController {
 
     @RequestMapping(value = "/conversation/new", method = RequestMethod.POST)
     public ResponseEntity<?> getConversation(@RequestBody ConversationDTO con) throws Exception{
+        con.setUserConversations(null);
         Conversation conversation = con.toEntity(modelMapper);
         UserDetails detail = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
         conversation.setUser_uuid(detail.getUsername());
         conversation.setCreateAt(LocalDateTime.now());
-        conversation.setLastMessageAt(LocalDateTime.now());
         conversation.setUUID(UUID.randomUUID().toString());
+        conversation.setUserConversations(null);
+        conversation.setUsers(null);
         conversation = conversationService.add(conversation);
-        conversation.setName(ConversationDTO.createName(conversation.getUsers(),detail.getUsername()));
-
 
         return ResponseEntity.ok(new ApiResponse<ConversationDTO>(0, AppConstant.SUCCESS_MESSAGE, ConversationDTO.fromEntity(modelMapper,conversation)));
     }
