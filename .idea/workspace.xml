@@ -22,30 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c25ed8-a2f5-4c3a-a4a2-4901f9d7891e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SourceChat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/PinsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/DTO/PinsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/repository/PinsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/PinsServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/PinsServicesIml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/controller/ConversationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Conversation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Pins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/model/Pins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationServiceIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giaynhap/service/ConversationServiceIml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/controller/ConversationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/controller/ConversationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/model/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/model/Conversation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/model/Pins.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/model/Pins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationServiceIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/giaynhap/service/ConversationServiceIml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_dir/stiker.ini" beforeDir="false" afterPath="$PROJECT_DIR$/user_dir/stiker.ini" afterDir="false" />
-    </list>
+    <list default="true" id="06c25ed8-a2f5-4c3a-a4a2-4901f9d7891e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +229,7 @@
       <workItem from="1602123457621" duration="3944000" />
       <workItem from="1602551776179" duration="8890000" />
       <workItem from="1602573046548" duration="7332000" />
-      <workItem from="1602746228300" duration="191000" />
+      <workItem from="1602746228300" duration="536000" />
     </task>
     <servers />
   </component>
