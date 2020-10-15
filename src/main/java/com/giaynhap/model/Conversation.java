@@ -29,10 +29,9 @@ public class Conversation {
     @Column (name = "last_msg_at")
     private LocalDateTime lastMessageAt;
 
-
     @ManyToMany(cascade = {
             CascadeType.MERGE
-    } )
+    }, fetch=FetchType.LAZY )
     @JoinTable(name = "user_conversation",
             joinColumns = @JoinColumn(name = "thread_uuid"),
             inverseJoinColumns = @JoinColumn(name = "user_uuid")
@@ -43,7 +42,7 @@ public class Conversation {
     private Integer unread;
 
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, fetch=FetchType.LAZY  )
     @JoinColumn(name = "thread_uuid",referencedColumnName = "uuid")
     private List<UserConversation> userConversations;
 

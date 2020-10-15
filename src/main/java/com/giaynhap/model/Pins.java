@@ -24,7 +24,35 @@ public class Pins implements Serializable {
     @JoinColumn(name = "messsage_uuid", referencedColumnName = "uuid")
     private Message message;
 
+    public String getConverSationUUID() {
+        return converSationUUID;
+    }
 
+    public void setConverSationUUID(String converSationUUID) {
+        this.converSationUUID = converSationUUID;
+    }
 
+    public String getMessageUUID() {
+        return messageUUID;
+    }
 
+    public void setMessageUUID(String messageUUID) {
+        this.messageUUID = messageUUID;
+    }
+
+    public Conversation getConversation() {
+        return conversation;
+    }
+
+    public void setConversation(Conversation conversation) {
+        this.conversation = conversation;
+    }
+
+    public Message getMessage() {
+        return message;
+    }
+
+    public void setMessage(Message message) {
+        this.message = message;
+    }
 }

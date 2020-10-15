@@ -40,16 +40,7 @@ public class ConversationServiceIml  implements ConversationService{
     @Override
     public Conversation add(Conversation conversation) {
         conversation.setUUID(UUID.randomUUID().toString());
-
-
         conversation = conversationRepository.save(conversation);
-
-        UserConversation userConv = new UserConversation();
-        userConv.setUserUuid(conversation.getUser_uuid());
-        userConv.setThreadUuid(conversation.getUUID());
-        userConversationRepository.save(userConv);
-
-
         return conversation;
     }
     @Override

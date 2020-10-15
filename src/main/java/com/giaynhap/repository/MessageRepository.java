@@ -21,6 +21,9 @@ public interface MessageRepository  extends CrudRepository<Message, String> {
             value="select m.* from messages m where m.user_uuid = :useruuid and m.thread_uuid = :threaduuid  order by time desc limit 20 ",
             countQuery="select m.* from messages m where m.user_uuid = :useruuid and m.thread_uuid = :threaduuid order by time desc limit 20")
     List<Message> getMessage(@Param("useruuid") String userUuid, @Param("threaduuid")  String threadUuid);
-
+    @Query(nativeQuery = true,
+            value="select m.* from pins p  join messages m  On p.`messages_id` = m.`uuid` where p.`conversation_id` = :conversation_id"
+    )
+    Message getMessagePins(@Param("conversation_id") String conversationId);
 
 }
